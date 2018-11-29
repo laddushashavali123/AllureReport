@@ -39,7 +39,6 @@ public class LoginTests extends BaseTest {
         //*************PAGE INSTANTIATIONS*************
         HomePage homePage = new HomePage(driver, wait);
         LoginPage loginPage = new LoginPage(driver, wait);
-
         //*************PAGE METHODS********************
         //Open N11 HomePage
         Log.info("Opening N11 website.");
