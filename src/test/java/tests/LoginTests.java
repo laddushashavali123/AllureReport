@@ -62,7 +62,6 @@ public class LoginTests extends BaseTest {
     public void invalidLoginTest_EmptyUserEmptyPassword() throws InterruptedException {
         //ExtentReports Description
         ExtentTestManager.getTest().setDescription("Invalid Login Scenario with empty username and password.");
-
         //*************PAGE INSTANTIATIONS*************
         HomePage homePage = new HomePage(driver, wait);
         LoginPage loginPage = new LoginPage(driver, wait);
