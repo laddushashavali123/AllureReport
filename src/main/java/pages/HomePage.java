@@ -13,7 +13,7 @@ public class HomePage extends BasePage {
     }
 
     //*********Page Variables*********
-    String baseURL = "http://www.n11.com/";
+    String baseURL = "https://www.n11.com/";
 
     //*********Web Elements*********
     String signInButtonClass = "btnSignIn";

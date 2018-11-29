@@ -70,12 +70,10 @@ public class LoginTests extends BaseTest {
         //*************PAGE INSTANTIATIONS*************
         HomePage homePage = new HomePage(driver,wait);
         LoginPage loginPage = new LoginPage(driver,wait);
-
         //*************PAGE METHODS********************
         homePage.goToN11();
         homePage.goToLoginPage();
         loginPage.loginToN11("","");
-
         //*************ASSERTIONS***********************
         Thread.sleep(500);
         loginPage.verifyLoginUserName("Lütfen e-posta adresinizi girin.");
