@@ -34,12 +34,14 @@ public class LoginPage extends BasePage {
     //Verify Username Condition
     @Step("Verify username: {0} step...")
     public void verifyLoginUserName (String expectedText) {
+
         Assert.assertEquals(readText(By.xpath(errorMessageUsernameXpath)), expectedText);
     }
 
     //Verify Password Condition
     @Step("Verify verifyLoginPassword: {0} step...")
     public void verifyLoginPassword (String expectedText) {
+
         Assert.assertNotNull(readText(By.xpath(errorMessagePasswordXpath)),"Error message is not populated");
        // Assert.assertEquals(readText(By.xpath(errorMessagePasswordXpath)), expectedText);
     }
